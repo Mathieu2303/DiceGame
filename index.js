@@ -3,7 +3,7 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 var imageSelect1 = "images/dice" + randomNumber1 + ".png";
 var imageSelect2 = "images/dice" + randomNumber2 + ".png";
-
+//get image tags
 var randomDice1 = document.querySelectorAll("img")[0];
 var randomDice2 = document.querySelectorAll ("img")[1];
 
